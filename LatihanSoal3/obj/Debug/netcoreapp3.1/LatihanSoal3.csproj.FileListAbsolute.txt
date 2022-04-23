@@ -1,0 +1,14 @@
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\LatihanSoal3.exe
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\LatihanSoal3.deps.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\LatihanSoal3.runtimeconfig.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\LatihanSoal3.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\LatihanSoal3.dll
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\LatihanSoal3.pdb
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.dll
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.pdb
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.genruntimeconfig.cache

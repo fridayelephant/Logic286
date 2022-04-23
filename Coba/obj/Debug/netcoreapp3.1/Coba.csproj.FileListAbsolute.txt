@@ -1,0 +1,14 @@
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\bin\Debug\netcoreapp3.1\Coba.exe
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\bin\Debug\netcoreapp3.1\Coba.deps.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\bin\Debug\netcoreapp3.1\Coba.runtimeconfig.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\bin\Debug\netcoreapp3.1\Coba.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\bin\Debug\netcoreapp3.1\Coba.dll
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\bin\Debug\netcoreapp3.1\Coba.pdb
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\obj\Debug\netcoreapp3.1\Coba.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\obj\Debug\netcoreapp3.1\Coba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\obj\Debug\netcoreapp3.1\Coba.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\obj\Debug\netcoreapp3.1\Coba.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\obj\Debug\netcoreapp3.1\Coba.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\obj\Debug\netcoreapp3.1\Coba.dll
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\obj\Debug\netcoreapp3.1\Coba.pdb
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Coba\obj\Debug\netcoreapp3.1\Coba.genruntimeconfig.cache
