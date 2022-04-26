@@ -1,0 +1,14 @@
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\bin\Debug\netcoreapp3.1\Day04(baru).exe
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\bin\Debug\netcoreapp3.1\Day04(baru).deps.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\bin\Debug\netcoreapp3.1\Day04(baru).runtimeconfig.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\bin\Debug\netcoreapp3.1\Day04(baru).runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\bin\Debug\netcoreapp3.1\Day04(baru).dll
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\bin\Debug\netcoreapp3.1\Day04(baru).pdb
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\obj\Debug\netcoreapp3.1\Day04(baru).csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\obj\Debug\netcoreapp3.1\Day04(baru).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\obj\Debug\netcoreapp3.1\Day04(baru).AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\obj\Debug\netcoreapp3.1\Day04(baru).AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\obj\Debug\netcoreapp3.1\Day04(baru).csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\obj\Debug\netcoreapp3.1\Day04(baru).dll
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\obj\Debug\netcoreapp3.1\Day04(baru).pdb
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day04\Day04(baru)\obj\Debug\netcoreapp3.1\Day04(baru).genruntimeconfig.cache

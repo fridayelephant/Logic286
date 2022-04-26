@@ -24,11 +24,11 @@ namespace LatihanSoal2
                         array2D[row, col] = col.ToString();
                     else if (row == 1)
                     {
-                        array2D[row, col] = baris2.ToString();
+                        array2D[row, col] = Math.Pow(n1, col).ToString();
                         baris2++;
                     }
                     else
-                        array2D[row, col] = baris3.ToString();
+                        array2D[row, col] = col.ToString();
                 }
             }
             Tools.CetakArray2D(array2D);

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\Ganesh_Batch286\\Logic286\\Coba\\Coba.csproj",
-      "projectName": "Coba",
-      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Ganesh_Batch286\\Logic286\\Coba\\Coba.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\Ganesh_Batch286\\Logic286\\Coba\\Day04.csproj",
+      "projectName": "Day04",
+      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\Ganesh_Batch286\\Logic286\\Coba\\Day04.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\LENOVO\\source\\repos\\Ganesh_Batch286\\Logic286\\Coba\\obj\\",
       "projectStyle": "PackageReference",

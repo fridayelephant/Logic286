@@ -12,3 +12,10 @@ C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\net
 C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.dll
 C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.pdb
 C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\Library.deps.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\Library.runtimeconfig.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\Library.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\Library.exe
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\Library.dll
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\bin\Debug\netcoreapp3.1\Library.pdb
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\LatihanSoal3\obj\Debug\netcoreapp3.1\LatihanSoal3.csproj.CopyComplete

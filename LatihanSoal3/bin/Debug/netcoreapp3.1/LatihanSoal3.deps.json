@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "LatihanSoal3/1.0.0": {
+        "dependencies": {
+          "Library": "1.0.0"
+        },
         "runtime": {
           "LatihanSoal3.dll": {}
+        }
+      },
+      "Library/1.0.0": {
+        "runtime": {
+          "Library.dll": {}
         }
       }
     }
   },
   "libraries": {
     "LatihanSoal3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
