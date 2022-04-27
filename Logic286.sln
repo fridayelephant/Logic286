@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConversion", "TimeConve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day05", "Day05\Day05.csproj", "{49C75B2D-C1AC-450C-9400-32E1B9C2986E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06", "Day06\Day06.csproj", "{68D1037E-EC7D-4203-A529-DD61977C9E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day06", "Day06\Day06.csproj", "{68D1037E-EC7D-4203-A529-DD61977C9E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatihanSoal4", "LatihanSoal4\LatihanSoal4.csproj", "{D8A4F8CD-F057-4308-9662-C76204EF2530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{68D1037E-EC7D-4203-A529-DD61977C9E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68D1037E-EC7D-4203-A529-DD61977C9E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68D1037E-EC7D-4203-A529-DD61977C9E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A4F8CD-F057-4308-9662-C76204EF2530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A4F8CD-F057-4308-9662-C76204EF2530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A4F8CD-F057-4308-9662-C76204EF2530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A4F8CD-F057-4308-9662-C76204EF2530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
