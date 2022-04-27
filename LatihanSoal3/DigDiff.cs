@@ -20,7 +20,6 @@ namespace LatihanSoal3
             string inputStr = Console.ReadLine();
             string[] strBaris = inputStr.Split('|');
             string[] strKolom = strBaris[0].Split(',');
-            int sum = 0;
 
             string[,] arrString = new string[strBaris.Length, strKolom.Length];
 
@@ -66,7 +65,7 @@ namespace LatihanSoal3
             {
                 for (int col = 0; col < strKolom.Length; col++)
                 {
-                    //DIagonal Kanan
+                    //Diagonal Kanan
                     if (row + col == strBaris.Length-1)
                     {
                         Console.WriteLine(arrString[row, col]);
@@ -76,7 +75,7 @@ namespace LatihanSoal3
                 }
             }
             Console.WriteLine($"Sum Data : {sumDataKanan}");
-            Console.WriteLine($"\nDifference: |{sumDataKiri}| - |{sumDataKanan}| = {Math.Abs(sumDataKiri - sumDataKanan)}");
+            Console.WriteLine($"\nDifference: |{sumDataKiri} - {sumDataKanan}| = {Math.Abs(sumDataKiri - sumDataKanan)}");
             
             Console.WriteLine("Press any Key to Continue....");
             Console.ReadKey();

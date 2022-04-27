@@ -1,0 +1,5 @@
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day05\obj\Debug\netcoreapp3.1\Day05.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day05\obj\Debug\netcoreapp3.1\Day05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day05\obj\Debug\netcoreapp3.1\Day05.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day05\obj\Debug\netcoreapp3.1\Day05.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\Day05\obj\Debug\netcoreapp3.1\Day05.csproj.CoreCompileInputs.cache

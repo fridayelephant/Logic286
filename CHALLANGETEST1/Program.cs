@@ -6,27 +6,43 @@ namespace CHALLANGETEST1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Challange01();
+            Console.WriteLine("Latihan Soal 3");
+            string keluar = "T";
+            while (keluar == "T")
+            {
+                Console.WriteLine("== Menu Utama ===");
+                Console.WriteLine("Pilih Soal yang Ingin Dilihat");
+                Console.WriteLine(" 1: Challange Test ke-1");
+                Console.WriteLine(" 2: Challange Test ke-2");
+                Console.WriteLine(" 3: Challange Test ke-3");
+                Console.WriteLine(" 4: Caesar Cipher");
+                //Console.WriteLine(" 3: Stair Case");
+                Console.WriteLine("99: Keluar");
+                Console.Write("Pilihan :");
+                int day = int.Parse(Console.ReadLine());
+                switch (day)
+                {
+                    case 1:
+                        Challange01 solusi01 = new Challange01();
+                        break;
+                    case 2:
+                        Challange02 solusi02 = new Challange02();
+                        break;
+                    case 3:
+                        Challange03 solusi03 = new Challange03();
+                        break;
+                    case 4:
+                        Caesar_Cipher solusi04 = new Caesar_Cipher();
+                        break;
+                    case 99:
+                        keluar = "Y";
+                        break;
+                    default:
+                        break;
+                }
+                Console.Write("Keluar [Y/T]: ");
+                keluar = Console.ReadLine();
+            }
         }
-
-        public static void Challange01()
-        {
-            Console.Clear();
-            Console.WriteLine("== Soal Challange ==");
-
-            Console.Write("masukan angka pertama : ");
-            int n1 = int.Parse(Console.ReadLine());
-
-            Console.Write("masukan angka kedua: ");
-            int n2 = int.Parse(Console.ReadLine());
-
-            //output hasil nantinya
-            int hasil = n1 + n2;
-            Console.WriteLine("====== === === == ==== ");
-            Console.WriteLine("Hasil: {0}", hasil);
-            Console.WriteLine("Penjumlahan kedua bilangan n1 dan n2 adalah : {0} + {1} = {2}", n1, n2, hasil);
-        }
-
     }
 }
