@@ -11,8 +11,8 @@ namespace LatihanSoal4
             Console.Clear();
             Console.WriteLine("Sherlock: 'Give the code please, Watson!' ");
             Console.WriteLine("Watson: 'hhhh...sherlock need the code to solve again' ");
-            Console.WriteLine("Watson: 'Sir, Can you give him the code to solve,please?' ");
-            Console.Write("Enter the code to solve (use space for each new number enter): ");
+            Console.WriteLine("Watson: 'Hey you, Can you give sherlock the code to solve,please?' ");
+            Console.WriteLine("Enter the code to solve (use space for each new number enter): ");
             string strderet = (Console.ReadLine());
 
             string[] arrderet = strderet.Split(' ');
@@ -46,7 +46,9 @@ namespace LatihanSoal4
 
             }
 
-            Console.WriteLine(status);
+            Console.WriteLine("Sherlock: 'AT LAST! NEW CODE!' ");
+            Console.WriteLine("Sherlock: 'Hmm... this code was' ");
+            Console.WriteLine("{0}!", status);
             Console.ReadKey();
         }
     }

@@ -12,10 +12,9 @@ namespace Day05
             {
                 Console.WriteLine("== Menu Utama ===");
                 Console.WriteLine("Pilih Soal yang Ingin Dilihat");
-                Console.WriteLine(" 1: Challange Test ke-1");
-                Console.WriteLine(" 2: Challange Test ke-2");
-                Console.WriteLine(" 3: Challange Test ke-3");
-                Console.WriteLine(" 4: Caesar Cipher");
+                Console.WriteLine(" 1: VeryBigSum");
+                Console.WriteLine(" 2: Hackerrank!String");
+                Console.WriteLine(" 3: Gemstone");
                 //Console.WriteLine(" 3: Stair Case");
                 Console.WriteLine("99: Keluar");
                 Console.Write("Pilihan :");
@@ -25,14 +24,14 @@ namespace Day05
                     case 1:
                         VeryBigSum solusi01 = new VeryBigSum();
                         break;
-                    //case 2:
-                    //    Challange02 solusi02 = new Challange02();
-                    //    break;
-                    //case 3:
-                    //    Challange03 solusi03 = new Challange03();
-                    //    break;
-                    //case 4:
-                    //    Caesar_Cipher solusi04 = new Caesar_Cipher();
+                    case 2:
+                        HackerrankInString solusi02 = new HackerrankInString();
+                        break;
+                    case 3:
+                        Gemstone solusi03 = new Gemstone();
+                        break;
+                        //case 4:
+                        //    Caesar_Cipher solusi04 = new Caesar_Cipher();
                         break;
                     case 99:
                         keluar = "Y";
