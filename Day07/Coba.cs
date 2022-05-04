@@ -8,12 +8,8 @@ namespace Day07
     {
         public Coba()
         {
-            public void vat()
-            {
-                Console.WriteLine("Masukan VAT: ");
-                decimal nVat = Convert.ToDecimal(Console.ReadLine());
+
                 
-            }
         }
     }
 }

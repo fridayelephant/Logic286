@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LatihanSoal4", "LatihanSoal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day07", "Day07\Day07.csproj", "{83FE18AA-C10A-4248-BE4E-C37E0F9D8CBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatihanSoal5", "ValueAddTax\LatihanSoal5.csproj", "{72894DC0-0454-497F-B937-AE7DC86D9627}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LatihanSoal5", "ValueAddTax\LatihanSoal5.csproj", "{72894DC0-0454-497F-B937-AE7DC86D9627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatihanSoal6", "LatihanSoal6\LatihanSoal6.csproj", "{B37A89FE-F7D8-4FD8-A61B-740C7A03B23A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{72894DC0-0454-497F-B937-AE7DC86D9627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72894DC0-0454-497F-B937-AE7DC86D9627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72894DC0-0454-497F-B937-AE7DC86D9627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37A89FE-F7D8-4FD8-A61B-740C7A03B23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37A89FE-F7D8-4FD8-A61B-740C7A03B23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37A89FE-F7D8-4FD8-A61B-740C7A03B23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37A89FE-F7D8-4FD8-A61B-740C7A03B23A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

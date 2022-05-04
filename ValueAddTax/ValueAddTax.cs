@@ -22,7 +22,7 @@ namespace LatihanSoal5
             nilaiOri = Math.Round(nilaiVAT - nilaiTax, 2);
 
             Console.WriteLine($"Nilai Awal adalah : {nilaiOri}");
-            Console.WriteLine($"Nilai Tax adalah : {nilaiTax}");3
+            Console.WriteLine($"Nilai Tax adalah : {nilaiTax}");
             Console.WriteLine($"Nilai VAT adalah : {nilaiVAT}");
 
             Console.ReadKey();
