@@ -1,0 +1,14 @@
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\obj\Debug\netcoreapp3.1\PreTest.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\obj\Debug\netcoreapp3.1\PreTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\obj\Debug\netcoreapp3.1\PreTest.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\obj\Debug\netcoreapp3.1\PreTest.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\obj\Debug\netcoreapp3.1\PreTest.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\bin\Debug\netcoreapp3.1\PreTest.exe
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\bin\Debug\netcoreapp3.1\PreTest.deps.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\bin\Debug\netcoreapp3.1\PreTest.runtimeconfig.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\bin\Debug\netcoreapp3.1\PreTest.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\bin\Debug\netcoreapp3.1\PreTest.dll
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\bin\Debug\netcoreapp3.1\PreTest.pdb
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\obj\Debug\netcoreapp3.1\PreTest.dll
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\obj\Debug\netcoreapp3.1\PreTest.pdb
+C:\Users\LENOVO\source\repos\Ganesh_Batch286\Logic286\PreTest\obj\Debug\netcoreapp3.1\PreTest.genruntimeconfig.cache
