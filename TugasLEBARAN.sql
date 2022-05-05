@@ -150,6 +150,12 @@ select
 from
 	Karyawan
 
+select kryA.Nama_Depan, kryA.Kode_Jabatan, kryA.Kode_Departemen, kryB.ReportTo as Bawahan, kryB.Nama_Depan
+from Karyawan kryA
+
+left join Karyawan kryB on
+	kryA.NIK = kryB.ReportTo
+
 
 
 ----- Soal NO.7
@@ -261,4 +267,147 @@ JOIN Komponen_Gaji as Komp ON
 GROUP BY Kry.NIK, Kry.Nama_Depan
 
  
+ ----- Challange 04/05/2022 (Arva - Tampilan nama belakang memiliki huruf 'ma' ditengah, dan gaji diatas umr = 1750000
+ Select	
+		Kry.Nama_Depan, 
+		Kry.Nama_Belakang, 
+		Gaji.Tahun,
+		Gaji.Bulan,
+		SUM(CASE WHEN [status] = 'I' THEN
+			Gaji.Nilai
+		ELSE
+			Gaji.Nilai* -1
+		END) as Gaji
+ FROM Karyawan as Kry
+ JOIN Gaji_Karyawan as Gaji ON
+	Gaji.NIK = Kry.NIK
+ JOIN Komponen_Gaji as Komp ON
+	Gaji.Kode_KompGaji = Komp.Kode_KompGaji
+Where Kry.Nama_Belakang LIKE '%%ma%%'
+GROUP BY Kry.Nama_Depan, Kry.Nama_Belakang, Gaji.Tahun, Gaji.Bulan
+HAVING SUM(CASE WHEN [status] = 'I' THEN
+			Gaji.Nilai
+		ELSE
+			Gaji.Nilai* -1
+		END) >1750000
+ORDER BY Gaji.Bulan
 
+ ----- Challange 04/05/2022 (tampilakn list Karyawan dengan makan bawahan setiap tahun)
+ SELECT 
+	KarA.NIK, 
+	KarA.Nama_Depan as atasan, 
+	KarB.Nama_Depan as bawahan,
+	Gaji.Tahun,
+	Komp.Kode_KompGaji,
+	Sum(Gaji.Nilai) as [Transport_Bawahan]
+FROM
+	Karyawan as KarA
+
+JOIN Karyawab as KarB ON
+	KarA.NIK = KarB.ReportTo
+JOIN Gaji_Karyawan as Gaji ON
+	Gaji.NIK = KarB.NIK
+JOIN Komponen_Gaji as Komp ON
+	Komp.Kode_KompGaji = Gaji.Kode_KompGaji
+
+WHERE Komp.Kode = 'R002'
+GROUP KarA.NIK, KarA.Nama_Depan,Gaji.Tahun,Komp.Kode
+
+ ----- Challange 04/05/2022 (Tampilkan jumlah penghasilan reguler dan ireguler setiap karyawan tiap bulan)
+SELECT
+	Kry.Nama_Depan,
+	Gaji.Tahun,
+	Gaji.Bulan,
+	SUM(CASE WHEN Komp.Kode_KompGaji LIKE 'I%' THEN Gaji.Nilai END
+	* CASE WHEN status = 'I' THEN 1 ELSE -1 END
+	) as Irreguler,
+	SUM(CASE WHEN Komp.Kode_KompGaji LIKE 'R%' THEN Gaji.Nilai END
+	* CASE WHEN status = 'I' THEN 1 ELSE -1 END
+	) as Reguler
+
+FROM Karyawan as Kry
+JOIN Gaji_Karyawan as Gaji ON
+	Kry.NIK = Gaji.NIK 
+JOIN Komponen_Gaji as Komp ON
+	Gaji.Kode_KompGaji = Komp.Kode_KompGaji
+
+GROUP BY Kry.Nama_Depan, Gaji.Tahun, Gaji.Bulan
+
+----- Challange 04/05/2022 (Tampilkan provinsi ber-penghasilan terendah tiap bulan)
+CREATE VIEW Vw_MINProvinsi
+AS
+SELECT 
+	Prov.Kode_Provinsi,
+	Prov.Nama_Provinsi, 
+	Gaji.Tahun,
+	Gaji.Bulan, 
+	SUM(CASE WHEN [Status] = 'I' THEN
+		Nilai
+	Else
+		Nilai * -1
+	END) Nilai
+FROM Karyawan as Kry
+JOIN Kota ON
+	Kry.Kode_Kota = Kota.Kode_Kota
+JOIN Gaji_Karyawan as Gaji ON
+	Kry.NIK = Gaji.NIK
+JOIN Komponen_Gaji as Komp ON
+	Gaji.Kode_KompGaji = Komp.Kode_KompGaji
+JOIN Provinsi as Prov ON
+	Kota.Kode_Provinsi = Prov.Kode_Provinsi
+
+GROUP BY Prov.Kode_Provinsi, Prov.Nama_Provinsi, Gaji.Tahun, Gaji.Bulan
+
+-- pemunculan nilai max dari view database
+select *
+from Vw_MINProvinsi
+Where Nilai = (Select MIN(Nilai) FROM Vw_MINProvinsi)
+
+----- Challange 04/05/2022 (Tampilkan jumlah karyawan per-provinsi perbulan)
+select Nama_Provinsi as Provinsi,COUNT(distinct Kry.NIK)as Jumlah_Karyawan, Gaji.Tahun, Gaji.Bulan
+--- fungsi distinct digunakan untuk mengskip perulangan agar tidak terhitung
+from Karyawan as Kry
+	
+JOIN Kota ON
+	Kry.Kode_Kota = Kota.Kode_Kota
+JOIN Provinsi as Prov ON
+	Kota.Kode_Provinsi = Prov.Kode_Provinsi
+JOIN Gaji_Karyawan as Gaji ON
+	Kry.NIK = Gaji.NIK
+
+group by Nama_Provinsi, Gaji.Tahun, Gaji.Bulan
+ORDER BY Gaji.Bulan
+
+----- Challange 04/05/2022 (Tampilkan Total Penghasilan Minimum Setiap Provinsi Setiap Bulan)
+create view minMonthProv
+as
+select 
+Kry.NIK,Kry.Nama_Depan,Gaji.Tahun, Gaji.Bulan, provinsi.nama,
+ sum(case when Komponen_Gaji.status = 'I' then 
+	 Gaji.Nilai
+	 else
+	 Gaji.Nilai*-1
+	 end) nilai
+from 
+Karyawan as Kry
+
+join Gaji_Karyawan as Gaji on
+Kry.NIK = Gaji.NIK
+
+join Komponen_Gaji as Komp on
+Gaji.Kode_KompGaji = Komp.Kode_KompGaji
+
+join Kota on
+Karyawan.Kode_Kota = kota.Kode_Kota
+
+join Provinsi as Prov on
+kota.Kode_Provinsi = Prov.Kode_Provinsi
+
+group by Kry.NIK,Kry.Nama_Depan,Gaji.Tahun, Gaji.bulan, Prov.Nama_Provinsi
+order by GajiKaryawan.Tahun, GajiKaryawan.bulan
+
+select nama,tahun,bulan,min(nilai)as penghasilan
+from minMonthProv 
+
+group by nama,tahun,bulan
+order by tahun,bulan
